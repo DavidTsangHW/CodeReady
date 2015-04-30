@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="CodeReady.exe" version="1.0.0.0" publicKeyToken="47ed91ab96f82369" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="CodeReady.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CodeReady" version="2.0.3881.29779" language="neutral" processorArchitecture="x86" />
+    <commandLine file="CodeReady.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.StdFormat" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MSDATASRC" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.MSDataGridLib.dll" size="45056">
+      <assemblyIdentity name="AxInterop.MSDataGridLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>4J7E/v8ETsmTrDs93LwaMGgekXs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeReady.exe" size="300032">
+      <assemblyIdentity name="CodeReady" version="2.0.3881.29779" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>FaZp5XPfBdI5RXATGIj+9ynXBdI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.JRO.dll" size="9216">
+      <assemblyIdentity name="Interop.JRO" version="2.6.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8nAfkbAq34PSMLaUG6cJH90NNGs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MSAdodcLib.dll" size="40960">
+      <assemblyIdentity name="Interop.MSAdodcLib" version="6.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8nw/s4HSGojMlj4LyPDJduZ6Nng=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MSDASC.dll" size="13824">
+      <assemblyIdentity name="Interop.MSDASC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>G+/cMPReZxX/C32nxSqALEpYxn8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MSDataGridLib.dll" size="65536">
+      <assemblyIdentity name="Interop.MSDataGridLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bQ1r8ry4H2FI6O2baEug6oBejXo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.Scripting.dll" size="32768">
+      <assemblyIdentity name="Interop.Scripting" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>uAu/FeETC/EUld8WdA6nN9Yx1hA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CodeReady.ico" size="3638">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eljuN6lLAcX/e0zgvwWw1mXbwNQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CKTOFF\david184.tsang" issuerKeyHash="7eb9b47b8d1b52d80fbe3043a16d4fd524db0bf6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>jMXgNbtfvD6WzYKEloFW0Lb2fsw=</DigestValue></Reference></SignedInfo><SignatureValue>inFCq4WjjStVWq50AyBJMkTHSECkIOecfOiz8LiJKhzf1DbD4X0uEp7SAUOzTT1zKAPxZxaW3+dgru0A6vczQjOUm3nvFCksPB6ajDiN9S17Yi2dQCTnm1Yzw2qwNPXsIxxrccOcC/LrfVFmrHs5BvwS+CMhECERWdKnYEB2W1A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9Hcl4BHz5xZWiyUJEL+iWOA4O2+g2NevcWxF6QKdehHViMHDc13GMZj8apc5zVHruS+XnRVWKcr9iW1qv+dUkfa4FWfidzzz3kg4zcDg63o3+xj0zS9m/x0MtTs3kTvbZBtx0suw7E0DetEyld8Y+wm2quCyHYb0V//3Tl/1ZCs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cc7ef6b6d05681968482cd963ebc5fbb35e0c58c" Description="" Url=""><as:assemblyIdentity name="CodeReady.exe" version="1.0.0.0" publicKeyToken="47ed91ab96f82369" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CKTOFF\david184.tsang</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>hMvkVqmhFtR1KoysITi1HSnA3hU=</DigestValue></Reference></SignedInfo><SignatureValue>mFg/gmXVnRxVLpMt9XbBoJfK7o27jXEgYXsIh+K+BwQGQYRIg/7AK9cZtz2U9qruEE10qQXwKvceSHgQG5Ruu6trKPCbzrILQBiaXCjeJHvhpoooGWiyO91QL6j2bXcYTW/l9mD90JvY/sqqU2U+1lZzQGyQ8H3740bLaYLWq3E=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9Hcl4BHz5xZWiyUJEL+iWOA4O2+g2NevcWxF6QKdehHViMHDc13GMZj8apc5zVHruS+XnRVWKcr9iW1qv+dUkfa4FWfidzzz3kg4zcDg63o3+xj0zS9m/x0MtTs3kTvbZBtx0suw7E0DetEyld8Y+wm2quCyHYb0V//3Tl/1ZCs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAVKgAwIBAgIQOJhbKvDPs6pJ161iXynLgjAJBgUrDgMCHQUAMDUxMzAxBgNVBAMeKgBDAEsAVABPAEYARgBcAGQAYQB2AGkAZAAxADgANAAuAHQAcwBhAG4AZzAeFw0xMDA4MTcwODMyMzRaFw0xMTA4MTcxNDMyMzRaMDUxMzAxBgNVBAMeKgBDAEsAVABPAEYARgBcAGQAYQB2AGkAZAAxADgANAAuAHQAcwBhAG4AZzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA9Hcl4BHz5xZWiyUJEL+iWOA4O2+g2NevcWxF6QKdehHViMHDc13GMZj8apc5zVHruS+XnRVWKcr9iW1qv+dUkfa4FWfidzzz3kg4zcDg63o3+xj0zS9m/x0MtTs3kTvbZBtx0suw7E0DetEyld8Y+wm2quCyHYb0V//3Tl/1ZCsCAwEAATAJBgUrDgMCHQUAA4GBAA9pnfHkRviE/jjdHDnRewWGQkkAhvPmnVbUczbEWEeH5SfwKUlK/PQBsNzidre6lELeIEKLEZbj3FzsMYnWgHZfrqjgYqPi7YP3YymDBcPPETKV6zAWHzrU5Quc+Zb+o/xw5c/+kGW0ODb5Sgh4o3iJ+hLdTccV6W1CFLjWKCiL</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
